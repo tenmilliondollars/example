@@ -21,7 +21,6 @@ spec:
     node(POD_LABEL) {
         sh 'git clone https://github.com/tenmilliondollars/example.git --branch develop example'
         container('docker') {
-            sh 'echo $(BRANCH_NAME)'
             sh 'docker build -t docker-example ./example'
         }
     }
