@@ -1,2 +1,2 @@
 FROM alpine:latest
-CMD ["echo","This is my custom image for Minikube(master branch!!!!!Example1233454566)"]
+CMD ["echo","This is my custom image for Minikube(master branch!!!!!Exampl434e1233454566)"]
